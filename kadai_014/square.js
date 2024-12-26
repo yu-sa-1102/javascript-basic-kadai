@@ -1,5 +1,5 @@
-const putSquare = (number) => {
-    console.log(number ** 2);
+const putSquare = (num) => {
+    return num ** 2;
 }
 
-putSquare(10);
+console.log(putSquare(10));
